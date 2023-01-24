@@ -1,2 +1,5 @@
 site_name: Eric Yang's Projects
+theme:
+  name: material
+
 
