@@ -3,8 +3,8 @@ site_name: Eric Yang's Notes
 site_author: Yalin(Eric) Yang
 
 # Repository
-repo_name: gisyaliny/Projects
-repo_url: https://gisyaliny.github.io/Projects/
+repo_name: gisyaliny/Notes
+repo_url: https://gisyaliny.github.io/Notes/
 
 # Configuration
 theme:
@@ -58,7 +58,6 @@ markdown_extensions:
   - pymdownx.details
   - pymdownx.superfences
   - pymdownx.mark
-  
   
 plugins:
   - search
