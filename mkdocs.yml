@@ -1,6 +1,8 @@
-site_name: Eric Yang's Notes
-
+site_name: Yalin(Eric) Yang's Notes
+# site_description: A Python package for interactive mapping with Google Earth Engine
 site_author: Yalin(Eric) Yang
+site_url: https://gisyaliny.github.io/Notes/
+copyright: "Copyright &copy; 2022 - 2023 Yalin Yang"
 
 # Repository
 repo_name: gisyaliny/Notes
@@ -8,27 +10,32 @@ repo_url: https://gisyaliny.github.io/Notes/
 
 # Configuration
 theme:
-  name: material
-  features:
-    - navigation.tabs
-    - navigation.sections
-    - toc.integrate
-    - navigation.top
-  language: en
-  palette:
-    - scheme: default
-      toggle:
-        icon: material/toggle-switch-off-outline 
-        name: Switch to dark mode
-      primary: teal
-      accent: purple 
-    - scheme: slate 
-      toggle:
-        icon: material/toggle-switch
-        name: Switch to light mode    
-      primary: teal
-      accent: lime    
-  # logo: PyTorch_logo_icon.svg
+    palette:
+        - scheme: default
+          #   primary: blue
+          #   accent: indigo
+          toggle:
+              icon: material/toggle-switch-off-outline
+              name: Switch to dark mode
+        - scheme: slate
+          primary: indigo
+          accent: indigo
+          toggle:
+              icon: material/toggle-switch
+              name: Switch to light mode
+    name: material
+    icon:
+        repo: fontawesome/brands/github
+    features:
+        - navigation.instant
+        - navigation.tracking
+        - navigation.top
+        - search.highlight
+        - search.share
+    custom_dir: "docs/overrides"
+    font:
+        text: Google Sans
+        code: Regular
 
 extra:
   social:
@@ -47,20 +54,33 @@ extra_javascript:
   - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
 
 markdown_extensions:
-  - pymdownx.highlight:
-      anchor_linenums: true
-  - pymdownx.inlinehilite
-  - pymdownx.snippets
-  - admonition
-  - pymdownx.arithmatex:
-      generic: true
-  - footnotes
-  - pymdownx.details
-  - pymdownx.superfences
-  - pymdownx.mark
+    - admonition
+    - abbr
+    - attr_list
+    - def_list
+    - footnotes
+    - meta
+    - md_in_html
+    - pymdownx.superfences
+    - pymdownx.highlight:
+          linenums: true
+    - toc:
+          permalink: true
   
 plugins:
-  - search
+    - search
+    - mkdocstrings
+    - git-revision-date
+    - git-revision-date-localized:
+          enable_creation_date: true
+          type: timeago
+    - mkdocs-jupyter:
+          include_source: True
+          ignore_h1_titles: True
+          allow_errors: false
+          ignore: ["conf.py"]
+          execute: False
+          execute_ignore: "notebooks/*_X.ipynb"
 
-copyright: |
-  &copy; 2022 <a href="https://gisyaliny.github.io/"  target="_blank" rel="noopener">Yalin Yang</a>
+nav:
+    - Home: index.md
