@@ -10,6 +10,7 @@ repo_url: https://gisyaliny.github.io/Notes/
 
 # Configuration
 theme:
+    language: en
     palette:
         - scheme: default
           #   primary: blue
@@ -30,6 +31,9 @@ theme:
         - navigation.instant
         - navigation.tracking
         - navigation.top
+        # - toc.integrate
+        # - navigation.tabs
+        - navigation.sections
         - search.highlight
         - search.share
     # custom_dir: "docs/overrides"
@@ -61,6 +65,8 @@ markdown_extensions:
     - footnotes
     - meta
     - md_in_html
+    - pymdownx.details
+    - pymdownx.mark
     - pymdownx.superfences
     - pymdownx.highlight:
           linenums: true
@@ -84,3 +90,6 @@ plugins:
 
 nav:
     - Home: index.md
+    - Notes:
+      - Computer Architecture:
+        - Chapter 1: "Notes/Computer-Architecture/Chapter1.ipynb"
