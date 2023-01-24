@@ -1,3 +1,0 @@
-## Feature of Computer
-
-Definition: 
