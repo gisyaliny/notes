@@ -32,7 +32,7 @@ theme:
         - navigation.top
         - search.highlight
         - search.share
-    custom_dir: "docs/overrides"
+    # custom_dir: "docs/overrides"
     font:
         text: Google Sans
         code: Regular
