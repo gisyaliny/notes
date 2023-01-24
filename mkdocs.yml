@@ -69,13 +69,18 @@ markdown_extensions:
   
 plugins:
     - search
+    - mkdocstrings
+    - git-revision-date
+    - git-revision-date-localized:
+          enable_creation_date: true
+          type: timeago
+    # - pdf-export
     - mkdocs-jupyter:
           include_source: True
           ignore_h1_titles: True
           allow_errors: false
           ignore: ["conf.py"]
-          execute: False
-          execute_ignore: "notebooks/*_X.ipynb"
+          #   execute: True
 
 nav:
     - Home: index.md
