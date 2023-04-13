@@ -90,6 +90,7 @@ plugins:
 
 nav:
     - Home: index.md
-    - Notes:
+    - Computer Science:
       - Computer Architecture:
         - Chapter 1: "Notes/Computer-Architecture/Chapter1.ipynb"
+    - Math:
