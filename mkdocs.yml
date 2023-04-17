@@ -1,12 +1,12 @@
-site_name: Yalin(Eric) Yang's Projects
+site_name: Yalin(Eric) Yang's Notes
 # site_description: A Python package for interactive mapping with Google Earth Engine
 site_author: Yalin(Eric) Yang
-site_url: https://gisyaliny.github.io/projects/
+site_url: https://gisyaliny.github.io/notes/
 copyright: "Copyright &copy; 2022 - 2023 Yalin Yang"
 
 # Repository
-repo_name: gisyaliny/projects
-repo_url: https://gisyaliny.github.io/projects/
+repo_name: gisyaliny/notes
+repo_url: https://gisyaliny.github.io/notes/
 
 # Configuration
 theme:
@@ -90,7 +90,9 @@ plugins:
 
 nav:
     - Home: index.md
-    - Computer Vision:
-      - OpenCV:
-        - Object Detection: "Computer-Vision/Object-Detection-Using-OpenCV.ipynb"
+    - Math:
+      - Advance-Math:
+        - Chapter1 Limit: "Math/Advance-Math/Chapter1-Limit-Continuous.ipynb"
+        - Chapter2 Differential: "Math/Advance-Math/Chapter2-Differential.ipynb"
+        - Chapter3 Integrals: "Math/Advance-Math/Chapter3-Integrals.ipynb"
     # - Math:
