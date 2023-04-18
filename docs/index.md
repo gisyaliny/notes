@@ -28,9 +28,9 @@ I am a Ph.D. Candidate in the [Department of Geospatial Information Sciences](ht
       <em>Math</em>
     </td>
     <td align="center">
-      <img src="./assets/math.png" alt="Geospatial Information Science" width="200" height="200">
+      <img src="./assets/gis.png" alt="Geospatial Information Science" width="200" height="200">
       <br>
-      <em>Geospatial Information Science</em>
+      <em>GIScience</em>
     </td>
   </tr>
   <tr>
@@ -45,7 +45,7 @@ I am a Ph.D. Candidate in the [Department of Geospatial Information Sciences](ht
       <em>Coursera</em>
     </td>
     <td align="center">
-      <img src="./assets/math.png" alt="Others" width="200" height="200">
+      <img src="./assets/others.jpg" alt="Others" width="200" height="200">
       <br>
       <em>Others</em>
     </td>
