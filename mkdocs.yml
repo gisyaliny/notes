@@ -95,4 +95,10 @@ nav:
         - Chapter1 Limit: "Math/Advance-Math/Chapter1-Limit-Continuous.ipynb"
         - Chapter2 Differential: "Math/Advance-Math/Chapter2-Differential.ipynb"
         - Chapter3 Integrals: "Math/Advance-Math/Chapter3-Integrals.ipynb"
-    # - Math:
+    - Statistics:
+      - An Introduction to Statistical Learning: 
+        - Chapter2 Statistical Learning: "Statistics/Into-to-Statistic/Chapter2-Statistical-Learning.ipynb"
+    - Coursera:
+      - Tree and Graph:
+        - Week1 Binary Tree And RedBlack Tree: "Coursera/Tree-and-Graph/Week1-Binary-Tree-And-RedBlack-Tree.ipynb"
+        - Week1 Test: "Coursera/Tree-and-Graph/Week1-Test.ipynb"
