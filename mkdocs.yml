@@ -105,9 +105,11 @@ nav:
       - Tree and Graph:
         - Week1 Binary Tree And RedBlack Tree: "Coursera/Tree-and-Graph/Week1-Binary-Tree-And-RedBlack-Tree.ipynb"
         - Week1 Test: "Coursera/Tree-and-Graph/Week1-Test.ipynb"
-        - Week2 Graph: "Coursera/Tree-and-Graph/Week2-Graph.ipynb"
-        - Week2 Topological Sorting and MSCC: "Coursera/Tree-and-Graph/Week2-Topological-Sorting.ipynb"
+        - Week2 Graph and Traversal: "Coursera/Tree-and-Graph/Week2-Graph.ipynb"
+        - Week2 Topological Sorting: "Coursera/Tree-and-Graph/Week2-Topological-Sorting.ipynb"
+        - Week2 Strongly Connected Component: "Coursera/Tree-and-Graph/Week2-Strongly-Connected-Components.ipynb"
         - Week2 Test: "Coursera/Tree-and-Graph/Week2-Test.ipynb"
+        - Week3 Spanning Tree: "Coursera/Tree-and-Graph/Week3-Spanning-Tree.ipynb"
       - Probabilistic Graphical Models:
         - Representation: 
           - Week1 Bayesian Network: "Coursera/Probablistic-Graphical-Models/Representation/Week1-Bayesian-Network.ipynb"
