@@ -92,35 +92,38 @@ nav:
     - Home: index.md
     - Math:
       - Advance-Math:
-        - Chapter1 Limit: "Math/Advance-Math/Chapter1-Limit-Continuous.ipynb"
-        - Chapter2 Differential: "Math/Advance-Math/Chapter2-Differential.ipynb"
-        - Chapter3 Integrals: "Math/Advance-Math/Chapter3-Integrals.ipynb"
+        - 1-Limit: "Math/Advance-Math/Chapter1-Limit-Continuous.ipynb"
+        - 2-Differential: "Math/Advance-Math/Chapter2-Differential.ipynb"
+        - 3-Integrals: "Math/Advance-Math/Chapter3-Integrals.ipynb"
       - Linear Algbra:
-        - Chapter1 Matrix Interpretation: "Math/Linear-Algbra/Chapter1-Interpretaion.ipynb"
-        - Chapter2 Matrix Operation: "Math/Linear-Algbra/Chapter2-Matrix-Operation.ipynb"
+        - 1-Matrix Interpretation: "Math/Linear-Algbra/Chapter1-Interpretaion.ipynb"
+        - 2-Matrix Operation: "Math/Linear-Algbra/Chapter2-Matrix-Operation.ipynb"
+        - 3-LU Decomposition: "Math/Linear-Algbra/Chapter3-LU-and-LDU-factorization.ipynb"
+        - 4-Transpose and Permutation: "Math/Linear-Algbra/Chapter4-Transpose-and-Permutation.ipynb"
+        - 5-Vector Space: "Math/Linear-Algbra/Chapter5-Vector-Space-And-Subspace.ipynb"
     - Statistics:
       - An Introduction to Statistical Learning: 
-        - Chapter2 Statistical Learning: "Statistics/Into-to-Statistic/Chapter2-Statistical-Learning.ipynb"
+        - 2-Statistical Learning: "Statistics/Into-to-Statistic/Chapter2-Statistical-Learning.ipynb"
     - Coursera:
       - Tree and Graph:
         - Certificate: "Coursera/Tree-and-Graph/Certificate.pdf"
-        - Week1 Binary Tree And RedBlack Tree: "Coursera/Tree-and-Graph/Week1-Binary-Tree-And-RedBlack-Tree.ipynb"
-        - Week1 Problem: "Coursera/Tree-and-Graph/Week1-Test.ipynb"
-        - Week2 Graph and Traversal: "Coursera/Tree-and-Graph/Week2-Graph.ipynb"
-        - Week2 Topological Sorting: "Coursera/Tree-and-Graph/Week2-Topological-Sorting.ipynb"
-        - Week2 Strongly Connected Component: "Coursera/Tree-and-Graph/Week2-Strongly-Connected-Components.ipynb"
-        - Week2 Problem: "Coursera/Tree-and-Graph/Week2-Test.ipynb"
-        - Week3 Spanning Tree: "Coursera/Tree-and-Graph/Week3-Spanning-Tree.ipynb"
-        - Week3 Problem: "Coursera/Tree-and-Graph/Week3-Problem.ipynb"
-        - Week4 Shortest Path: "Coursera/Tree-and-Graph/Week4-Shortest-Path-Problem.ipynb"
-        - Week4 Bellman-Ford: "Coursera/Tree-and-Graph/Week4-Bellman-Ford-Algorithm.ipynb"
-        - Week4 Dijkstra: "Coursera/Tree-and-Graph/Week4-Dijkstra.ipynb"
-        - Week4 Floyd-Warshalls: "Coursera/Tree-and-Graph/Week4-Floyd-Warshalls-Algorithm.ipynb"
-        - Week4 Problem: "Coursera/Tree-and-Graph/Week4-Problem.ipynb"
+        - W1-Binary Tree And RedBlack Tree: "Coursera/Tree-and-Graph/Week1-Binary-Tree-And-RedBlack-Tree.ipynb"
+        - W1-Problem: "Coursera/Tree-and-Graph/Week1-Test.ipynb"
+        - W2-Graph and Traversal: "Coursera/Tree-and-Graph/Week2-Graph.ipynb"
+        - W2-Topological Sorting: "Coursera/Tree-and-Graph/Week2-Topological-Sorting.ipynb"
+        - W2-Strongly Connected Component: "Coursera/Tree-and-Graph/Week2-Strongly-Connected-Components.ipynb"
+        - W2-Problem: "Coursera/Tree-and-Graph/Week2-Test.ipynb"
+        - W3-Spanning Tree: "Coursera/Tree-and-Graph/Week3-Spanning-Tree.ipynb"
+        - W3-Problem: "Coursera/Tree-and-Graph/Week3-Problem.ipynb"
+        - W4-Shortest Path: "Coursera/Tree-and-Graph/Week4-Shortest-Path-Problem.ipynb"
+        - W4-Bellman-Ford: "Coursera/Tree-and-Graph/Week4-Bellman-Ford-Algorithm.ipynb"
+        - W4-Dijkstra: "Coursera/Tree-and-Graph/Week4-Dijkstra.ipynb"
+        - W4-Floyd-Warshalls: "Coursera/Tree-and-Graph/Week4-Floyd-Warshalls-Algorithm.ipynb"
+        - W4-Problem: "Coursera/Tree-and-Graph/Week4-Problem.ipynb"
       - Probabilistic Graphical Models:
         - Representation: 
-          - Week1 Bayesian Network: "Coursera/Probablistic-Graphical-Models/Representation/Week1-Bayesian-Network.ipynb"
-          - Week1 Inference from BNs: "Coursera/Probablistic-Graphical-Models/Representation/Week1-Inference-of-BN.ipynb"
+          - W1-Bayesian Network: "Coursera/Probablistic-Graphical-Models/Representation/Week1-Bayesian-Network.ipynb"
+          - W1-Inference from BNs: "Coursera/Probablistic-Graphical-Models/Representation/Week1-Inference-of-BN.ipynb"
         - Inference:
-          - Week1 CPD and MAP: "Coursera/Probablistic-Graphical-Models/Inference/Week1-CPD-And-MAP.ipynb"
-          - Week1 Variable Elimination: "Coursera/Probablistic-Graphical-Models/Inference/Week1-Variable-Elimination.ipynb"
+          - W1-CPD and MAP: "Coursera/Probablistic-Graphical-Models/Inference/Week1-CPD-And-MAP.ipynb"
+          - W1-Variable Elimination: "Coursera/Probablistic-Graphical-Models/Inference/Week1-Variable-Elimination.ipynb"
