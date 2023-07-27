@@ -101,6 +101,7 @@ nav:
         - 3-LU Decomposition: "Math/Linear-Algbra/Chapter3-LU-and-LDU-factorization.ipynb"
         - 4-Transpose and Permutation: "Math/Linear-Algbra/Chapter4-Transpose-and-Permutation.ipynb"
         - 5-Vector Space: "Math/Linear-Algbra/Chapter5-Vector-Space-And-Subspace.ipynb"
+        - Problem Set1: "Math/Linear-Algbra/ProblemSet1.pdf"
     - Statistics:
       - An Introduction to Statistical Learning: 
         - 2-Statistical Learning: "Statistics/Into-to-Statistic/Chapter2-Statistical-Learning.ipynb"
