@@ -128,5 +128,10 @@ nav:
         - L3-Exploratory Data Analysis: "GIS/Introduction-to-Spatial-Data-Science/L3-Exploratory-Data-Analysis.ipynb"
         - L4-Spatial Autocorrelation: "GIS/Introduction-to-Spatial-Data-Science/L4-Spatial-Autocorrelation.ipynb"
         - L5-Global Spatial Autocorrelation: "GIS/Introduction-to-Spatial-Data-Science/L5-Global-Spatial-Autocorrelation.ipynb"
+        - L6-Visualizing Spatial Autocorrelation: "GIS/Introduction-to-Spatial-Data-Science/L6-Visualizing-Spatial-Autocorrelation.ipynb"
+        - L7-LISA: "GIS/Introduction-to-Spatial-Data-Science/L7-LISA.ipynb"
+        - L8-Other-Local-Statistics: "GIS/Introduction-to-Spatial-Data-Science/L8-Other-Local-Statistics.ipynb"
+        - L9-Multivariate-LISA: "GIS/Introduction-to-Spatial-Data-Science/L9-Multivariate-LISA.ipynb"
+
     - Deep Learning:
       - Categorical Classification Error: "Deep-Learning/Categorical-classification-loss.ipynb"
