@@ -91,6 +91,7 @@ plugins:
 nav:
     - Home: index.md
     - Math:
+      - Analytics Geometry: "Math/Analytic-geometry.ipynb"
       - Advance-Math:
         - 1-Limit: "Math/Advance-Math/Chapter1-Limit-Continuous.ipynb"
         - 2-Differential: "Math/Advance-Math/Chapter2-Differential.ipynb"
@@ -102,9 +103,12 @@ nav:
         - 4-Transpose and Permutation: "Math/Linear-Algbra/Chapter4-Transpose-and-Permutation.ipynb"
         - 5-Vector Space: "Math/Linear-Algbra/Chapter5-Vector-Space-And-Subspace.ipynb"
         - Problem Set1: "Math/Linear-Algbra/ProblemSet1.pdf"
+
     - Statistics:
+      - Correlation Coefficients: "Statistics/Correlation-Test.ipynb"
       - An Introduction to Statistical Learning: 
         - 2-Statistical Learning: "Statistics/Into-to-Statistic/Chapter2-Statistical-Learning.ipynb"
+
     - Computer Science:
       - Tree and Graph:
         - Certificate: "Computer-Science/Tree-and-Graph/Certificate.pdf"
@@ -121,6 +125,7 @@ nav:
         - W4-Dijkstra: "Computer-Science/Tree-and-Graph/Week4-Dijkstra.ipynb"
         - W4-Floyd-Warshalls: "Computer-Science/Tree-and-Graph/Week4-Floyd-Warshalls-Algorithm.ipynb"
         - W4-Problem: "Computer-Science/Tree-and-Graph/Week4-Problem.ipynb"
+
     - GIS:
       - Introduction to Spatial Data Science:
         - L1-Spatial Analysis: "GIS/Introduction-to-Spatial-Data-Science/L1-Spatial-Analysis-Intro.ipynb"
@@ -135,3 +140,6 @@ nav:
 
     - Deep Learning:
       - Categorical Classification Error: "Deep-Learning/Categorical-classification-loss.ipynb"
+
+    - UTD:
+      - Scientific Papers Guidance: "UTD/Scientific-Papers-Guidance.ipynb"
