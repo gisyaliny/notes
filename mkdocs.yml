@@ -143,6 +143,8 @@ nav:
       - Entropy and Cross Entropy: "Deep-Learning/Entropy-and-Cross-Entropy.ipynb"
       - Mutual Information: "Deep-Learning/Mutual-Information.ipynb"
       - Evolutionary algorithms: "Deep-Learning/Evolutionary-algorithms.ipynb"
+      - Convolutional Neural Networks: "Deep-Learning/Convolutional-Neural-Networks.ipynb"
+      - CNN Sample Code: "Deep-Learning/CNN-Samples.ipynb"
 
     - UTD:
       - Scientific Papers Guidance: "UTD/Scientific-Papers-Guidance.ipynb"
