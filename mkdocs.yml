@@ -140,6 +140,9 @@ nav:
 
     - Deep Learning:
       - Categorical Classification Error: "Deep-Learning/Categorical-classification-loss.ipynb"
+      - Entropy and Cross Entropy: "Deep-Learning/Entropy-and-Cross-Entropy.ipynb"
+      - Mutual Information: "Deep-Learning/Mutual-Information.ipynb"
+      - Evolutionary algorithms: "Deep-Learning/Evolutionary-algorithms.ipynb"
 
     - UTD:
       - Scientific Papers Guidance: "UTD/Scientific-Papers-Guidance.ipynb"
