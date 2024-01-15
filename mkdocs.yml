@@ -146,5 +146,11 @@ nav:
       - Convolutional Neural Networks: "Deep-Learning/Convolutional-Neural-Networks.ipynb"
       - CNN Sample Code: "Deep-Learning/CNN-Samples.ipynb"
 
+    - Data Analytics:
+      - 01 Exploratory Analysis and Visualization : "Data-Analyst/02-Exploratory-Analysis-and-Visualization.ipynb"
+      - 02 Understand Array In Numpy : "Data-Analyst/03-Understand-Array_In_Numpy.ipynb"
+      - 03 Matrix in Numpy : "Data-Analyst/04-Matrix_in_Numpy.ipynb"
+      - 04 More about Exploratory Analysis : "Data-Analyst/06-More-about-Exploratory-Analysis.ipynb"
+
     - UTD:
       - Scientific Papers Guidance: "UTD/Scientific-Papers-Guidance.ipynb"
