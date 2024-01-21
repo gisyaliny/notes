@@ -77,6 +77,7 @@ plugins:
     - search
     - mkdocstrings
     - git-revision-date
+    - open-in-new-tab
     - git-revision-date-localized:
           enable_creation_date: true
           type: timeago
