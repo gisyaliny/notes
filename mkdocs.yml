@@ -110,6 +110,8 @@ nav:
       - An Introduction to Statistical Learning: 
         - C2 Statistical Learning: "Statistics/Into-to-Statistic/Chapter2-Statistical-Learning.ipynb"
         - C2 R-Script: "Statistics/Into-to-Statistic/Chapter2.nb.html"
+        - C3 Linear Regression: "Statistics/Into-to-Statistic/Chapter3-Linear-Regression.ipynb"
+        - C3 R-Script: "Statistics/Into-to-Statistic/Chapter3.nb.html"
 
     - Computer Science:
       - Tree and Graph:
@@ -141,21 +143,25 @@ nav:
         - L9-Multivariate-LISA: "GIS/Introduction-to-Spatial-Data-Science/L9-Multivariate-LISA.ipynb"
 
     - Deep Learning:
-      - Categorical Classification Error: "Deep-Learning/Categorical-classification-loss.ipynb"
-      - Entropy and Cross Entropy: "Deep-Learning/Entropy-and-Cross-Entropy.ipynb"
-      - Mutual Information: "Deep-Learning/Mutual-Information.ipynb"
-      - Evolutionary algorithms: "Deep-Learning/Evolutionary-algorithms.ipynb"
-      - Convolutional Neural Networks: "Deep-Learning/Convolutional-Neural-Networks.ipynb"
-      - CNN Sample Code: "Deep-Learning/CNN-Samples.ipynb"
+      - Model Assess:
+        - Categorical Classification Error: "Deep-Learning/Categorical-classification-loss.ipynb"
+        - Entropy and Cross Entropy: "Deep-Learning/Entropy-and-Cross-Entropy.ipynb"
+        - Mutual Information: "Deep-Learning/Mutual-Information.ipynb"
+      - Algorithms:
+        - Evolutionary algorithms: "Deep-Learning/Evolutionary-algorithms.ipynb"
+        - Convolutional Neural Networks: "Deep-Learning/Convolutional-Neural-Networks.ipynb"
+        - CNN Sample Code: "Deep-Learning/CNN-Samples.ipynb"
 
     - Data Analytics:
-      - 01 Exploratory Analysis and Visualization : "Data-Analyst/02-Exploratory-Analysis-and-Visualization.ipynb"
-      - 02 Understand Array In Numpy : "Data-Analyst/03-Understand-Array_In_Numpy.ipynb"
-      - 03 Matrix in Numpy : "Data-Analyst/04-Matrix_in_Numpy.ipynb"
-      - 04 More about Exploratory Analysis : "Data-Analyst/06-More-about-Exploratory-Analysis.ipynb"
-      - 05 Web Crawling : "Data-Analyst/09-Web-Crawling.ipynb"
-      - 06 Using PostgreSQL : "Data-Analyst/10-Using-PostgreSQL.ipynb"
-      - Project-1-Meal-Order  : "Data-Analyst/07-Project-meal-order.ipynb"
+      - Learning Path:
+        - 01 Exploratory Analysis and Visualization : "Data-Analyst/02-Exploratory-Analysis-and-Visualization.ipynb"
+        - 02 Understand Array In Numpy : "Data-Analyst/03-Understand-Array_In_Numpy.ipynb"
+        - 03 Matrix in Numpy : "Data-Analyst/04-Matrix_in_Numpy.ipynb"
+        - 04 More about Exploratory Analysis : "Data-Analyst/06-More-about-Exploratory-Analysis.ipynb"
+        - 05 Web Crawling : "Data-Analyst/09-Web-Crawling.ipynb"
+        - 06 Using PostgreSQL : "Data-Analyst/10-Using-PostgreSQL.ipynb"
+      - Projects:
+        - Project-1-Meal-Order  : "Data-Analyst/07-Project-meal-order.ipynb"
 
     - UTD:
       - Scientific Papers Guidance: "UTD/Scientific-Papers-Guidance.ipynb"
