@@ -131,6 +131,11 @@ nav:
         - W4-Dijkstra: "Computer-Science/Tree-and-Graph/Week4-Dijkstra.ipynb"
         - W4-Floyd-Warshalls: "Computer-Science/Tree-and-Graph/Week4-Floyd-Warshalls-Algorithm.ipynb"
         - W4-Problem: "Computer-Science/Tree-and-Graph/Week4-Problem.ipynb"
+      - Linux:
+        - 01-File-System: "Computer-Science/Linux/01-linux-file-system.ipynb"
+        - 02-VIM: "Computer-Science/Linux/02-vim.ipynb"
+        - 03-Web-Setting: "Computer-Science/Linux/03-linux-web-setting.ipynb"
+        - 04-System-manage: "Computer-Science/Linux/04-linux-system-manage.ipynb"
 
     - GIS:
       - Introduction to Spatial Data Science:
@@ -143,6 +148,9 @@ nav:
         - L7-LISA: "GIS/Introduction-to-Spatial-Data-Science/L7-LISA.ipynb"
         - L8-Other-Local-Statistics: "GIS/Introduction-to-Spatial-Data-Science/L8-Other-Local-Statistics.ipynb"
         - L9-Multivariate-LISA: "GIS/Introduction-to-Spatial-Data-Science/L9-Multivariate-LISA.ipynb"
+      - GIS Software Design:
+        - 05-GeoDatabase-And-QGIS: "GIS/GIS-Software-Design/05_geo_database.ipynb"
+        - 06-SQL-In-Jupyter-Notebook: "GIS/GIS-Software-Design/06_SQL_in_Notebook.ipynb"
 
     - Deep Learning:
       - Model Assess:
