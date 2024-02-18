@@ -151,6 +151,7 @@ nav:
       - GIS Software Design:
         - 05-GeoDatabase-And-QGIS: "GIS/GIS-Software-Design/05_geo_database.ipynb"
         - 06-SQL-In-Jupyter-Notebook: "GIS/GIS-Software-Design/06_SQL_in_Notebook.ipynb"
+        - 07-Spatial-Function-In-PostGIS: "GIS/GIS-Software-Design/07_Spatial_Function_PostGIS.ipynb"
 
     - Deep Learning:
       - Model Assess:
