@@ -136,6 +136,8 @@ nav:
         - 02-VIM: "Computer-Science/Linux/02-vim.ipynb"
         - 03-Web-Setting: "Computer-Science/Linux/03-linux-web-setting.ipynb"
         - 04-System-manage: "Computer-Science/Linux/04-linux-system-manage.ipynb"
+      - Software Design:
+        - 01-Unit-Test: "Computer-Science/Software-Design/01-Python-Unit-Test.ipynb"
 
     - GIS:
       - Introduction to Spatial Data Science:
