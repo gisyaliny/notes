@@ -114,6 +114,8 @@ nav:
         - C3 R-Script: "Statistics/Into-to-Statistic/Chapter3.nb.html"
         - C4 Classification: "Statistics/Into-to-Statistic/Chapter4-Classification.ipynb"
         - C4 ROC-AUC-Script: "Statistics/Into-to-Statistic/Chapter4-ROC-And-AUC-Example.nb.html"
+        - C10 CNN: "Statistics/Into-to-Statistic/Chapter10-CNN.ipynb"
+        - C10 RNN: "Statistics/Into-to-Statistic/Chapter10-RNN.ipynb"
 
     - Computer Science:
       - Tree and Graph:
