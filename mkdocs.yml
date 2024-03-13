@@ -114,7 +114,13 @@ nav:
         - C3 R-Script: "Statistics/Into-to-Statistic/Chapter3.nb.html"
         - C4 Classification: "Statistics/Into-to-Statistic/Chapter4-Classification.ipynb"
         - C4 ROC-AUC-Script: "Statistics/Into-to-Statistic/Chapter4-ROC-And-AUC-Example.nb.html"
+        - C5 Sampling: "Statistics/Into-to-Statistic/Chapter5-Sampling.ipynb"
+        - C6 Model Selection: "Statistics/Into-to-Statistic/Chapter6-Model-Selection.ipynb"
+        - C6 Dimension Reduction: "Statistics/Into-to-Statistic/Chapter6-Dimention-Reduction.ipynb"
+        - C6 R-Script: "Statistics/Into-to-Statistic/Chapter6-Model-Selection.nb.html"
+        - C7 Beyond Linear: "Statistics/Into-to-Statistic/Chapter7-non-linear-regression.ipynb"
         - C10 CNN: "Statistics/Into-to-Statistic/Chapter10-CNN.ipynb"
+        - C10 NLP: "Statistics/Into-to-Statistic/Chapter10-NLP.ipynb"
         - C10 RNN: "Statistics/Into-to-Statistic/Chapter10-RNN.ipynb"
 
     - Computer Science:

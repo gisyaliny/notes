@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5273d611-2766-47d4-9c43-8d1fba63694a" name="Changes" comment="" />
+    <list default="true" id="5273d611-2766-47d4-9c43-8d1fba63694a" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/Statistics/Into-to-Statistic/Chapter10-RNN.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Statistics/Into-to-Statistic/Chapter10-RNN.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Statistics/Into-to-Statistic/Chapter5-Sampling.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Statistics/Into-to-Statistic/Chapter5-Sampling.ipynb" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -30,6 +33,7 @@
       <option name="presentableId" value="Default" />
       <updated>1709054224576</updated>
       <workItem from="1709054225801" duration="14000" />
+      <workItem from="1710272949398" duration="7000" />
     </task>
     <servers />
   </component>
