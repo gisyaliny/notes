@@ -1,12 +1,12 @@
 site_name: Yalin(Eric) Yang's Notes
-# site_description: Yalin Yang's Learning Notes Sharing 
+site_description: Yalin Yang's Learning Notes Sharing 
 site_author: Yalin(Eric) Yang
 site_url: https://gisyaliny.github.io/notes/
 copyright: "Copyright &copy; 2024 - 2025 Yalin Yang"
 
 # Repository
 repo_name: gisyaliny/notes
-repo_url: https://gisyaliny.github.io/notes/
+repo_url: https://github.com/gisyaliny/notes
 
 # Configuration
 theme:
@@ -14,7 +14,7 @@ theme:
     palette:
         - scheme: default
           #   primary: blue
-          #   accent: indigo
+          accent: indigo
           toggle:
               icon: material/toggle-switch-off-outline
               name: Switch to dark mode
@@ -32,7 +32,7 @@ theme:
         - navigation.tracking
         - navigation.top
         # - toc.integrate
-        # - navigation.tabs
+        - navigation.tabs
         - navigation.sections
         - search.highlight
         - search.share
@@ -45,10 +45,10 @@ extra:
   social:
     - icon: fontawesome/brands/github-alt
       link: https://gisyaliny.github.io/
-    # - icon: fontawesome/brands/twitter
-    #   link: https://twitter.com/c17hawke
+    - icon: fontawesome/brands/google-scholar
+      link: https://scholar.google.com/citations?user=wdkZhlwAAAAJ
     - icon: fontawesome/brands/linkedin
-      link: www.linkedin.com/in/gisyaliny
+      link: https://www.linkedin.com/in/gisyaliny/
     # - icon: fontawesome/brands/instagram
     #   link: https://www.instagram.com/c17hawke/
 
