@@ -45,8 +45,8 @@ extra:
   social:
     - icon: fontawesome/brands/github-alt
       link: https://github.com/gisyaliny/notes
-    - icon: fontawesome/brands/google-scholar
-      link: https://scholar.google.com/citations?user=wdkZhlwAAAAJ
+    # - icon: fontawesome/brands/google-scholar
+      # link: https://scholar.google.com/citations?user=wdkZhlwAAAAJ
     - icon: fontawesome/brands/linkedin
       link: https://www.linkedin.com/in/gisyaliny/
     # - icon: fontawesome/brands/instagram
