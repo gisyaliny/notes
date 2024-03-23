@@ -32,7 +32,7 @@ theme:
         - navigation.tracking
         # - navigation.top
         # - toc.integrate
-        - navigation.tabs
+        # - navigation.tabs
         - navigation.sections
         - search.highlight
         - search.share
