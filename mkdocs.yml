@@ -86,9 +86,9 @@ plugins:
     - mkdocs-jupyter:
           include_source: True
           ignore_h1_titles: True
-          allow_errors: false
+          allow_errors: true
           ignore: ["conf.py"]
-          #   execute: True
+          execute: false
 
 nav:
     - Home: index.md
