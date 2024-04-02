@@ -1,2 +1,10 @@
 docs/Data-Analyst/identity.csv
 docs/GIS/GIS-Software-Design/data
+**/.ipynb_checkpoints/
+**/*.db
+**/*.csv
+**/*.parquet
+**/*.json
+**/*.geojson
+**/cities.*
+**/nyc*

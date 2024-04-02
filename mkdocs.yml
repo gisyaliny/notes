@@ -84,11 +84,12 @@ plugins:
           type: timeago
     # - pdf-export
     - mkdocs-jupyter:
-          include_source: True
-          ignore_h1_titles: True
-          allow_errors: true
-          ignore: ["conf.py"]
-          execute: false
+        include_source: True
+        ignore_h1_titles: True
+        execute: True
+        allow_errors: false
+        ignore: ["name.ipynb"]
+        execute_ignore: ["path/*.ipynb"]
 
 nav:
     - Home: index.md
