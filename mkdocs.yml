@@ -30,7 +30,7 @@ theme:
     features:
         - navigation.instant
         - navigation.tracking
-        # - navigation.top
+        - navigation.top
         # - toc.integrate
         # - navigation.tabs
         - navigation.sections
