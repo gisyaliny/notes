@@ -24,3 +24,4 @@ mkdocstrings-python-legacy
 mkdocs-open-in-new-tab
 pygments
 pymdown-extensions
+lxml == 5.1.0
