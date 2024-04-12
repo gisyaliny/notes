@@ -148,6 +148,8 @@ nav:
         - 04-System-manage: "Computer-Science/Linux/04-linux-system-manage.ipynb"
       - Software Design:
         - 01-Unit-Test: "Computer-Science/Software-Design/01-Python-Unit-Test.ipynb"
+      - Full stack:
+        - 01-SQL: "Computer-Science/SQL/01-sql-comprehensive.ipynb"
 
     - GIS:
       - Introduction to Spatial Data Science:
