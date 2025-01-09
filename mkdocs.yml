@@ -170,7 +170,7 @@ nav:
         - 09-Projecting-Data: "GIS/GIS-Software-Design/09-Projecting-Data.ipynb"
         - 10-Geopandas: "GIS/GIS-Software-Design/10-geopandas.ipynb"
       - PostgreSQL:
-        - 01-PostgreSQL-Installation: "GIS/PostgreSQL/01-intro.ipynb"
+        - 01-PostgreSQL-Installation: "GIS/PostgreGIS/01-intro.ipynb"
     - Deep Learning:
       - Model Assess:
         - Categorical Classification Error: "Deep-Learning/Categorical-classification-loss.ipynb"
