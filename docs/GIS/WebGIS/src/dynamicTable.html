@@ -34,6 +34,9 @@
     <div id="table-container"></div>
   </body>
   <script>
+    // Global variable to store JSON data
+    let jsonData = [];
+
     // Get data from api link
     fetch(`https://reqres.in/api/users`, {
       method: "GET",
@@ -45,12 +48,19 @@
       .then((result) => {
         //console.log(result.data);
         // Initialize the table
-        generateTable(result.data);
+        jsonData = result.data
+        generateTable(jsonData);
       });
 
     // Event to search input
     document.getElementById("search-input").addEventListener('change',function(e){
-        console.log(`input:${e.target.value}`);
+      const query = e.target.value.toLowerCase();
+      console.log(jsonData);
+      const filteredData = jsonData.filter((item) =>
+        `${item.first_name} ${item.last_name}`.toLowerCase().includes(query)
+      );
+      generateTable(filteredData);
+      // console.log(`input:${query}`);
     });
 
     function generateTable(data) {
