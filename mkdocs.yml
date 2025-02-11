@@ -180,6 +180,9 @@ nav:
         - Evolutionary algorithms: "Deep-Learning/Evolutionary-algorithms.ipynb"
         - Convolutional Neural Networks: "Deep-Learning/Convolutional-Neural-Networks.ipynb"
         - CNN Sample Code: "Deep-Learning/CNN-Samples.ipynb"
+      - CV:
+        - Docker Introduction: "Deep-Learning/CV/01-docker-intro.ipynb"
+        - Setup Env(MASK R-CNN): "Deep-Learning/CV/02-setup-env.ipynb"
 
     - Data Analytics:
       - Learning Path:
