@@ -183,6 +183,8 @@ nav:
       - CV:
         - Docker Introduction: "Deep-Learning/CV/01-docker-intro.ipynb"
         - Setup Env(MASK R-CNN): "Deep-Learning/CV/02-setup-env.ipynb"
+      - UCB-CS 198:
+        - W1: "Deep-Learning/UCB-CS198/01-ML-Intro.ipynb"
 
     - Data Analytics:
       - Learning Path:
