@@ -126,6 +126,9 @@ nav:
         - C10 RNN: "Statistics/Into-to-Statistic/Chapter10-RNN.ipynb"
 
     - Computer Science:
+      - NAS:
+        - Build NAS Using Laptop: "Computer-Science/NAS/01_build_NAS_using_Laptop.ipynb"
+        - Remote Control NAS: "Computer-Science/NAS/02_remote_connect.ipynb"
       - Tree and Graph:
         - Certificate: "Computer-Science/Tree-and-Graph/Certificate.pdf"
         - W1-Binary Tree And RedBlack Tree: "Computer-Science/Tree-and-Graph/Week1-Binary-Tree-And-RedBlack-Tree.ipynb"
