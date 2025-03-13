@@ -8,3 +8,5 @@ docs/GIS/GIS-Software-Design/data
 **/*.geojson
 **/cities.*
 **/nyc*
+**/data/*
+**/data/**/*
