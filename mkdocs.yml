@@ -189,6 +189,7 @@ nav:
         - Setup Env(MASK R-CNN): "Deep-Learning/CV/02-setup-env.ipynb"
       - CNN:
         - CNN Introduction: "Deep-Learning/CV/CNN/W1.ipynb"
+        - Classic Architectures: "Deep-Learning/CV/CNN/W2.ipynb"
       - UCB-CS 198:
         - W1: "Deep-Learning/UCB-CS198/01-ML-Intro.ipynb"
 

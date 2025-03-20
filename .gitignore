@@ -10,3 +10,4 @@ docs/GIS/GIS-Software-Design/data
 **/nyc*
 **/data/*
 **/data/**/*
+*.pth
