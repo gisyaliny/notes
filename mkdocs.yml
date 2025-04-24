@@ -155,6 +155,10 @@ nav:
       - Full stack:
         - 01-SQL: "Computer-Science/SQL/01-sql-comprehensive.ipynb"
 
+    - CFM:
+      - 01-Week1: "CFM/c1.ipynb"
+      - 02-Week2: "CFM/c2.ipynb"
+
     - GIS:
       - Introduction to Spatial Data Science:
         - L1-Spatial Analysis: "GIS/Introduction-to-Spatial-Data-Science/L1-Spatial-Analysis-Intro.ipynb"
