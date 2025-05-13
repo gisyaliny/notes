@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dynamic Table</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+
+    <style>
+      body {
+        height: 800px;
+        width: 800px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 20px;
+      }
+      th {
+        color: #fff;
+      }
+    </style>
+  </head>
+
+  <body>
+    <input type="text" id="search-input" placeholder="Search by name..." />
+    <div id="table-container"></div>
+  </body>
+  <script>
+    // Global variable to store JSON data
+    let jsonData = [];
+
+    // Get data from api link
+    fetch(`https://reqres.in/api/users`, {
+      method: "GET",
+      headers: {
+        "X-Requested-With": "XMLHttpRequest",
+      },
+    })
+      .then((response) => response.json())
+      .then((result) => {
+        //console.log(result.data);
+        // Initialize the table
+        jsonData = result.data
+        generateTable(jsonData);
+      });
+
+    // Event to search input
+    document.getElementById("search-input").addEventListener('change',function(e){
+      const query = e.target.value.toLowerCase();
+      console.log(jsonData);
+      const filteredData = jsonData.filter((item) =>
+        `${item.first_name} ${item.last_name}`.toLowerCase().includes(query)
+      );
+      generateTable(filteredData);
+      // console.log(`input:${query}`);
+    });
+
+    function generateTable(data) {
+      const tableContainer = document.getElementById("table-container");
+      tableContainer.innerHTML = ""; // Clear any existing table
+
+      const table = document.createElement("table");
+      table.border = "1";
+
+      // Create the table header
+      const headerRow = document.createElement("tr");
+      headerRow.classList.add("bg-info"); // add bootstrap class
+      Object.keys(data[0]).forEach((key) => {
+        // console.log(key);
+        const th = document.createElement("th");
+        th.textContent = key.charAt(0).toUpperCase() + key.slice(1); //Capitalize the first character
+        headerRow.appendChild(th);
+      });
+      table.appendChild(headerRow);
+
+      //Create table rows
+      data.forEach((item) => {
+        const row = document.createElement("tr");
+        Object.values(item).forEach((value) => {
+          const td = document.createElement("td");
+          td.textContent = value;
+          row.appendChild(td);
+        });
+        table.appendChild(row);
+      });
+      tableContainer.appendChild(table);
+    }
+  </script>
+</html>
