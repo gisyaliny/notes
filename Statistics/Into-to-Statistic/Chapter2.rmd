@@ -1,0 +1,142 @@
+---
+title: "Chapter2 Statistical Learning"
+author: "Yalin Yang"
+date: "`r Sys.Date()`"
+output:
+  html_notebook:
+    toc: TRUE
+    toc_float: TRUE
+  word_document:
+    toc: no
+    toc_depth: '3'
+---
+
+## Vector and Matrix in R
+### Creating vector in R
+
+```{r}
+x = c(2,7,5)
+x
+```
+
+```{r}
+y = seq(from = 4, length = 3, by = 3)
+y
+```
+### Vector Operation 
+
+```{r}
+x + y
+```
+```{r}
+x^y
+```
+
+```{r}
+x[2]
+```
+```{r}
+x[2:3]
+```
+```{r}
+x[-2] ## remove the 2nd elements
+```
+### Create matrix in R
+
+```{r}
+z = matrix(seq(1,12),4,3)
+z
+```
+```{r}
+z[3:4,2:3]
+```
+```{r}
+z[,2:3]
+```
+```{r}
+z[,1] ## will return as vector type 
+```
+```{r}
+z[,1,drop = FALSE] ## Remain Matrix
+```
+```{r}
+dim(z) ## Check dimension
+```
+## Other Useful function
+
+```{r}
+ls() ## list all variables within the env
+```
+```{r}
+rm(y) ## Remove a typical variable
+ls()
+```
+## Data Simulating
+
+### Generate Random data, graphics
+
+```{r fig.height=5, fig.width=5}
+set.seed(11)
+x = runif(50)  ## 50 random variable follows uniform distribution
+y = rnorm(50)  ## 50 random variable follows standard normal distribution
+
+plot(x,y, xlab = "Random Uniform", ylab = "Random Noraml", pch = "*", col = "blue")
+```
+
+### Make parallel plot
+
+```{r fig.height=5, fig.width=5}
+par(mfrow = c(2,1))  ## 2 rows, 1 cols
+
+plot(x,y, xlab = "Random Uniform", ylab = "Random Noraml", pch = "*", col = "blue")
+hist(y)
+
+par(mfrow = c(1,1))  ## Restore the setting
+```
+
+## Example
+
+```{r}
+auto = read.csv("./Data/Auto.csv") ### Read data
+names(auto)  ## check all variables
+```
+```{r}
+summary(auto)
+```
+```{r}
+table(auto$horsepower)
+```
+```{r}
+dim(auto)
+```
+```{r}
+class(auto)
+```
+```{r}
+plot(auto$cylinders, auto$mpg)
+lowess_model <- lowess(auto$cylinders, auto$mpg) 
+lines(lowess_model, col="red") ### add the lowess soomth line
+
+```
+
+```{r}
+attach(auto) ## make a columns as an variable and store into the env
+```
+
+```{r}
+search() ### List all items (variables [GlobalEnv], Dataframe [auto], and loaded packages)
+```
+```{r}
+## boxplot
+plot(as.factor(cylinders),mpg) ## Transfer numeric to factor
+```
+
+
+
+
+
+
+
+
+
+
