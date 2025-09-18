@@ -125,6 +125,10 @@ nav:
         - C10 NLP: "Statistics/Into-to-Statistic/Chapter10-NLP.ipynb"
         - C10 RNN: "Statistics/Into-to-Statistic/Chapter10-RNN.ipynb"
 
+    - Gitlab:
+      - SSH setup: "Computer-Science/Gitlab/01-Gitlab-SSH-Setup.ipynb"
+      - Local to remote: "Computer-Science/Gitlab/02-Local-to-remote.ipynb"
+
     - Computer Science:
       - NAS:
         - Build NAS Using Laptop: "Computer-Science/NAS/01_build_NAS_using_Laptop.ipynb"
